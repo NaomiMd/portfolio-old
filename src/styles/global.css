@@ -97,15 +97,15 @@ p {
 }
 
 .git-icon {
-    content: url("/github-mark-white.svg");
+    content: url("/public/github-mark-white.svg");
 }
 
 .mail-icon {
-    content: url("/mail-white.svg");
+    content: url("/public/mail-white.svg")
 }
 
 .linked-in {
-    content: url("/li-in-white.png");
+    content: url("/public/li-in-white.png");
 }
 
 /* Card listing */
@@ -155,15 +155,15 @@ html.light {
 }
 
 .light .git-icon {
-    content: url("/github-mark.svg");
+    content: url("/public/github-mark.svg");
 }
 
 .light .mail-icon {
-    content: url("/mail.svg");
+    content: url("/public/mail.svg");
 }
 
 .light .linked-in {
-    content: url("/li-in.png");
+    content: url("/public/li-in.png");
 }
 
 img[data-astro-cid-f735gm7g]{
