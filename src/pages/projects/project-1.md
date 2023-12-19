@@ -6,7 +6,7 @@ image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'
 worksImage1:
-    url: '../../restaurant-header.png'
+    url: '/portfolio/public/restaurant-header.png'
     alt: 'maquette'
 worksImage2:
     url: '../public/restaurant-carte.png'
