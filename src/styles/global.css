@@ -43,6 +43,17 @@ p {
 .gif {
     margin: 20px 0 0 0;
     text-align: center;
+    content: url(/public/laptop.webp);
+}
+.gif-index {
+    margin: 20px 0 0 0;
+    text-align: center;
+    content: url(/public/space.webp);
+}
+.gif-404 {
+    margin: 20px 0 0 0;
+    text-align: center;
+    content: url(/public/404.webp);
 }
 
 /* Navigation Bar */

@@ -9,7 +9,7 @@ worksImage1:
     url: '../../public/restaurant-header.png'
     alt: 'maquette'
 worksImage2:
-    url: '../../public/restaurant-carte.png'
+    url: './public/restaurant-carte.png'
     alt: 'maquette'
 platform: Web
 stack: HTML, CSS, JavaScript, PHP
