@@ -6,10 +6,10 @@ image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'
 worksImage1:
-    url: "/portfolio/public/restaurant-header.png"
+    url: "/portfolio/restaurant-header.png"
     alt: 'maquette'
 worksImage2:
-    url: '/public/restaurant-carte.png'
+    url: '/portfolio/restaurant-carte.png'
     alt: 'maquette'
 platform: Web
 stack: HTML, CSS, JavaScript, PHP
