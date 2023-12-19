@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+const pageTitle = "Portfolio Maindret Naomi";
+---
+<Layout pageTitle={pageTitle}>
+    <div class="gif">
+        <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.webp"/>
+    </div>
+    <h1>Naomi Maindret</h1>
+    <small>Développeur web</small>
+    <h2>A propos</h2>
+    <p>
+        Bienvenue sur mon portfolio en ligne ! Je suis Naomi, une passionnée de développement web et de design, 
+        actuellement à la recherche d'une d'alternance dans le Design UI/UX pour mon Bachelor Concepteur d'Interface UI. 
+        Titulaire d'un diplôme en Développement Web avec une spécialisation en Front-end obtenu en octobre dernier, 
+        j'ai acquis des compétences en maquettage, création de personas, et conception de prototypes. 
+        Mon parcours académique m'a également permis de maîtriser des outils essentiels tels qu'Adobe XD et Figma. 
+        Bien que je n'aie pas encore d'expérience professionnelle, je suis animée par le désir de mettre en pratique 
+        mes connaissances et de contribuer à des projets tout en continuant à en apprendre plus.
+    </p>
+    <p>
+        Explorez mon portfolio pour découvrir mes réalisations, compétences, et suivre mon parcours professionnel. 
+        Merci de prendre le temps de découvrir mon travail, et n'hésitez pas à me contacter pour toute opportunité
+        ou simplement pour échanger sur le monde du design et du développement web.
+    </p>
+    <div class="button">
+        <a href="/works/">
+            <button class="button">My portfolio</button>
+        </a>
+    </div>
+    <h2>Skills</h2>
+    <div class="link-images">
+        <img width="46" height="46" alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"/>
+        <img width="46" height="46" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"/>
+        <img width="46" height="46" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"/>
+        <img width="46" height="46" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
+        <img width="46" height="46" alt="PHP" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"/>
+        <img width="46" height="46" alt="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg"/>
+        <img width="46" height"46" alt="Adobe XD" src="../../public/xd.png"/>
+        <img width="46" height"46" alt="Figma" src="../../public/figma.png"/>
+    </div>
+    <h2>Hobby</h2>
+    <p>
+        Je nourris une passion profonde pour la musique, le dessin et l'art en général. 
+        La musique me guide dans ma créativité, le dessin est mon mode d'expression visuelle, et l'art, une source constante d'inspiration. 
+    </p>
+</Layout>
+<style>
+    /* small */
+    small {
+        background-color: #584966;
+        color: #fdebf3;
+        border-radius: 6px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        padding: 0.3em 0.6em 0.2em;
+    }
+
+    /* Button */
+    button {
+        background: rgba(0,0,0,0);
+        border: 2px solid #78c2ad;
+        border-radius: 8px;
+        color: #fdebf3;
+        font: 600 16px 'Josefin Sans', sans-serif;
+        padding: 8px 16px;
+        transition: background-color 0.4s, color 0.4s;
+    }
+
+    button:hover {
+        background-color: #78c2ad;
+        color: #1e1e2e;
+        cursor: pointer;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    /* Skill images */
+    .link-images img {
+        margin: 16px 4px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .link-images img {
+            height: 30px;
+            width: 30px;
+            margin: 16px 1px;
+        }
+    }
+</style>
