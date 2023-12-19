@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownWorksLayout.astro
 title: 'Restaurant le Quai Antique'
 description: 'Site web pour un restaurant'
 image:
-    url: '/GitHub.webp'
+    url: '/portfolio/GitHub.webp'
     alt: 'GitHub wallpaper'
 worksImage1:
     url: "/portfolio/restaurant-header.png"

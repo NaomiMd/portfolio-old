@@ -3,13 +3,13 @@ layout: ../../layouts/MarkdownWorksLayout.astro
 title: 'Clinique Vétérinaire '
 description: "Site web d'une clinique vétérinaire"
 image:
-    url: '/GitHub.webp'
+    url: '/portfolio/GitHub.webp'
     alt: 'GitHub wallpaper'
 worksImage1:
-    url: '../../public/charte-graphique.png'
+    url: '/portfolio/charte-graphique.png'
     alt: 'charte graphique.'
 worksImage2:
-    url: '../../public/clinique-header.png'
+    url: '/portfolio/clinique-header.png'
     alt: 'maquette.'
 platform: Web
 stack: HTML, CSS, JavaScript, PHP

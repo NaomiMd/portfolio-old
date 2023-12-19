@@ -3,10 +3,10 @@ layout: ../../layouts/MarkdownWorksLayout.astro
 title: 'Modale de paiement'
 description: 'Modale de paiement version desktop'
 image:
-    url: '/GitHub.webp'
+    url: '/portfolio/GitHub.webp'
     alt: 'GitHub wallpaper'
 worksImage1:
-    url: '../../public/maquette-payement.png'
+    url: '/portfolio/maquette-payement.png'
     alt: 'Maquette desktop'
 worksImage2:
     /
