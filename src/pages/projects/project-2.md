@@ -13,7 +13,6 @@ worksImage2:
     alt: 'maquette.'
 platform: Web
 stack: HTML, CSS, JavaScript, PHP
-website: https://animacare.alwaysdata.net/accueil
 
 ---
 
@@ -24,3 +23,4 @@ clinique vétérinaire fictive.
 Le but est d'avoir un site web pour présenter la clinique, l'équipe qui la compose et les
 services proposés, une interface permettant de prendre des rendez-vous et permettre
 aux clients d'avoir un compte leur permettant de consulter leurs rendez-vous et d'enregistrer les informations de leurs animaux.
+Les wireframes et maquettes ont été conçus grâce à Adobe XD.
